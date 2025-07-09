@@ -266,3 +266,31 @@ header {
     padding: 20px;
   }
 }
+
+.date-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px; /* improved for visibility */
+  border: 2px solid #7d0e0e;
+  border-radius: 8px;
+  background: white;
+  color: #000;
+  text-align: center;
+}
+
+.date-input::placeholder {
+  color: #555;
+  opacity: 1; /* Ensures visibility on all browsers */
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .date-input {
+    font-size: 16px;
+  }
+
+  .date-input::placeholder {
+    font-size: 14px;
+  }
+}
+
