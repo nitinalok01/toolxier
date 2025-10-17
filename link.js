@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const backendURL = "https://linkxier.onrender.com"; // Change to your backend URL when deployed  
 
+
+	
+	fetch("https://linkxier.onrender.com") 
+  .then(res => res.json())
+  .then(data => console.log(data));
+
+
     // --- DOM Element References ---
     const shortenBtn = document.getElementById("shortenBtn");
     const pasteIcon = document.getElementById("pasteIcon");
@@ -141,3 +148,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
