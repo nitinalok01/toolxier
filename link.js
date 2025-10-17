@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const backendURL = "http://localhost:5000"; // Change to your backend URL when deployed
+    const backendURL = "https://linkxier.onrender.com"; // Change to your backend URL when deployed  
 
     // --- DOM Element References ---
     const shortenBtn = document.getElementById("shortenBtn");
@@ -138,5 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 	
+
 
 });
