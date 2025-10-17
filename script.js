@@ -8,7 +8,8 @@ const tools = [
   { href: 'gst.html', icon: 'fa-magnifying-glass-dollar', name: 'GST Calcy' },
   { href: 'compress.html', icon: "fa-solid fa-images", name: 'Image Compressor' },
   { href: 'qrdecoder.html', icon: 'fa-qrcode', name: 'QR Decoder' },
-  { href: 'tictactoe.html', icon: 'fa-bolt', name: 'XoXo Game' }
+  { href: 'tictactoe.html', icon: 'fa-bolt', name: 'XoXo Game' },
+  { href: 'link.html', icon: 'fa-bolt', name: 'LinkXier' },
 ];
 
 const grid = document.querySelector('.links-grid');
@@ -28,4 +29,5 @@ finalList.forEach(tool => {
     localStorage.setItem('recentTools', JSON.stringify(updated));
   });
   grid.appendChild(card);
+
 });
