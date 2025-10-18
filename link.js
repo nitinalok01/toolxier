@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const backendURL = "https://linkxier.onrender.com"; // Change to your backend URL when deployed  
+    const backendURL = "https://link.toolxier.xyz/"; // Change to your backend URL when deployed  
 
 
 	
@@ -148,4 +148,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
 
